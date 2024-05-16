@@ -11,7 +11,7 @@ export const data = [
 
 export const options = {
   chart: {
-    title: "Company Performance",
+    title: "Total Revenue",
     subtitle: "Sales, Expenses, and Profit: 2014-2017",
   },
 };
