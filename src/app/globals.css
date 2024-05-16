@@ -3,11 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+  --color-dark: #5D5FEF;
+  --color-light: #737791;
+  --color-border: #055972;
+  --text-color: #024154;
+  --Montserrat-Regular: Montserrat-Regular;
+  --Montserrat-Medium: Montserrat-Medium;
+  --Montserrat-Bold: Montserrat-Bold;
+  --Avenir-Roman: Avenir-Roman;
+  --Avenir-Black: Avenir-Black;
+  --Avenir-Book: Avenir-Book;
 }
 
+.module_selectBtn[aria-expanded="true"]:after {
+  border-bottom: 5px solid #ffffff
+}
+
+* {
+  transition: all 1ms;
+}
+a{
+  text-decoration: none !important;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -16,14 +34,34 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("/assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("/assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("/assets/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Avenir-Black;
+  src: url("/assets/fonts/Avenir/AvenirLTStd-Black.otf");
+}
+
+@font-face {
+  font-family: Avenir-Book;
+  src: url("/assets/fonts/Avenir/AvenirLTStd-Book.otf");
+}
+
+@font-face {
+  font-family: Avenir-Roman;
+  src: url("/assets/fonts/Avenir/AvenirLTStd-Roman.otf");
 }
 
 @layer utilities {
