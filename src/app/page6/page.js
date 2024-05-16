@@ -1,3 +1,4 @@
+"use client"
 import MainSection from '@/Components/MainSection/MainSection'
 import React from 'react'
 

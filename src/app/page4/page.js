@@ -1,4 +1,3 @@
-"use client"
 import SideBarMenu from '@/Components/MainSection/SideBarMenu/SideBarMenu'
 import React, { useState } from 'react'
 import { Button, Table } from 'antd';
@@ -26,9 +25,7 @@ for (let i = 0; i < 46; i++) {
         address: `London, Park Lane no. ${i}`,
     });
 }
-const page = () => {
-
-
+const Page = () => {
 
     const [selectedRowKeys, setSelectedRowKeys] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -56,16 +53,12 @@ const page = () => {
                 <div className='container-fluid m-0 p-0'>
                     <div className='row g-0'>
 
-
                         {/* side bar menu section  */}
-
                         <div className='col-lg-2'>
                             <SideBarMenu />
                         </div>
 
-
                         {/* content section  */}
-
                         <div className='col-lg-10'>
 
                             <div>
@@ -87,10 +80,8 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-
             </section>
-
         </>)
 }
 
-export default page
+export default Page
