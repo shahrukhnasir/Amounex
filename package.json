@@ -12,7 +12,7 @@
     "@ant-design/icons": "^5.3.7",
     "@faker-js/faker": "^8.4.1",
     "antd": "^5.17.2",
-    "axios": "^1.6.7",
+    "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "faker": "^6.6.6",
     "gsa": "^0.0.0",

@@ -27,7 +27,9 @@
     font-weight: 900;
     padding: 0px 10px;
 }
-
+.logo_box span img{
+    width: 70px;
+}
 .top {
     display: flex;
     justify-content: center;
@@ -317,3 +319,59 @@
     color: lightgray;
 
 }
+
+
+/*  */
+
+/* Modern Tabs Styling */
+.custom-tabs .ant-tabs-nav {
+    margin: 0;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .custom-tabs .ant-tabs-tab {
+    font-size: 18px; /* Increased font size */
+    font-weight: bold;
+    width: 200px;
+    padding: 14px 28px; /* Increased padding for larger tabs */
+    margin: 10px; /* Better spacing between tabs */
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .custom-tabs .ant-tabs-tab:hover {
+    background-color: #eaeaea; /* Hover effect with light gray background */
+    color: #333; /* Darker text on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+  }
+  
+  .custom-tabs .ant-tabs-tab-active {
+    background-color: var(--color-dark); 
+    color: #000 !important; /* Active tab text color (black) */
+    font-size: 20px; /* Larger font for active tab */
+    font-weight: 700; /* Bold font for active tab */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Subtle shadow for active tab */
+    transform: scale(1.1); /* Slightly enlarge active tab */
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .custom-tabs .ant-tabs-ink-bar {
+    display: none; /* Remove the default ink bar */
+  }
+  
+  /* Improve spacing and alignment for the cards container */
+  .custom-tabs .ant-tabs-content {
+    padding: 24px 16px; /* Increased padding inside tab content */
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-top: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  

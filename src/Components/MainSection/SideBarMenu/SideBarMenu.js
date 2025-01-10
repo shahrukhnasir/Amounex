@@ -48,18 +48,18 @@ const SideBarMenu = () => {
     },
     {
       icon: <IoCartOutline />,
-      label: 'Order',
+      label: 'T20',
       route: '/page3',
 
     },
     {
       icon: <BiCartAdd />,
-      label: 'Products',
+      label: 'Final',
       route: '/page4',
     },
     {
       icon: <FaChartLine />,
-      label: 'Sales Report',
+      label: 'Progress Report',
       route: '/page5',
     },
     {
@@ -85,10 +85,11 @@ const SideBarMenu = () => {
         <div className="top">
           <div className="logo_box">
             <span><img src={'/assets/images/logo.png'} className="img-fluid" alt="" /></span>
-            <span><small className="smallText"> Amounex</small></span>
+            
             
           </div>
         </div>
+          {/* <span><small className="smallText"> Cricket World Cup</small></span> */}
 
         <div className="sideBarMenu">
           {Menu.map((menu, i) => (
@@ -130,7 +131,7 @@ const SideBarMenu = () => {
 
         <div class="card_profile" >
           <div class="card_info">
-            <h2>Amounex</h2>
+            <h2>cricket world cup</h2>
             <p>Get access to all </p>
             <p> features on playstore</p>
           </div>
